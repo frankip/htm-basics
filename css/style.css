@@ -19,3 +19,32 @@ body {
     background-size: cover;
 
 }
+
+ #form {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/assets/backgrounds/c_image.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 50vh;
+ }
+
+ #email,
+ #name,
+ #text-message {
+     background-color: transparent;
+ }
+
+ ::-webkit-input-placeholder {
+     color: white;
+ }
+
+ #product,
+ #dev,
+ #design {
+     display: none;
+ }
+
+ .portfolio-img {
+
+     position: relative;
+
+ }
